@@ -13,3 +13,19 @@
     padding-top: 10px;
     padding-right: 340px;
 }
+p{
+    padding-top: 10px;  
+}
+.alig{
+    display: inline;
+}
+.contenedor-imagenes {
+    display: flex;
+}
+  
+.float{
+    float: left;
+    padding-right: 5px;
+    color: black;
+
+}
