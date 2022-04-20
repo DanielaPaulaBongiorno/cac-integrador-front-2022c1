@@ -1,26 +1,32 @@
-.alineacion{
-    text-align: left;
-}
+
 .colores{
     color: white;
 }
 #tamaniologo{
-    margin-left: 50px;
+    
     height: 60px;
-    width: auto;
+    
 }
 .h4{
     padding-top: 10px;
     padding-right: 340px;
 }
-p{
-    padding-top: 10px;  
-}
-.alig{
-    display: inline;
-}
-.contenedor-imagenes {
-    display: flex;
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+  }
+ #tamanio{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 13px;
+     margin-bottom: 30px;
+ } 
+#bsas{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 25px;
 }
   
 .float{
@@ -28,4 +34,37 @@ p{
     padding-right: 5px;
     color: black;
 
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#colorNav{
+    background-color: #40373F;
+    
+}
+#color{
+    background-color: #40373F;
+    
+}
+
+a{
+    color:grey;
+}
+
+.form-horizontal{
+    
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+}
+#boton{
+    background-color: #96C93E;
+    border: none;
+    margin-bottom: 20px;
 }
