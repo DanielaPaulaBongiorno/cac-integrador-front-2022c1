@@ -1,70 +1,100 @@
+/*CSS para el Nav*/
 
-.colores{
-    color: white;
-}
-#tamaniologo{
-    
+#tamaniologo {
     height: 60px;
-    
-}
-.h4{
-    padding-top: 10px;
-    padding-right: 340px;
 }
 
+/*CSS para el Encabezado*/
+
+.fondo-imagen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/ba1.jpg");
+    height: 100vh;
+}
+
+#alinear {
+    padding-top: 200px;
+    padding-right: 80px;
+}
+
+#alinearBoton {
+    margin-right: 80px;
+}
+
+/*CSS para las Cards*/
+
+#colorJavascript {
+    color: black;
+}
+
+.float {
+    float: left;
+    padding-top: 15px;
+    color: black;
+    margin-left: 15px;
+}
+
+/*CSS para las 2 columnas*/
 
 .img-fluid {
     max-width: 100%;
     height: auto;
-    
-  }
- #tamanio{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 13px;
-     margin-bottom: 30px;
- } 
-#bsas{
+}
+
+#tamanio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+#bsas {
     font-family: sans-serif;
     font-size: 25px;
     padding-top: 25px;
 }
-  
-.float{
-    float: left;
-    padding-right: 5px;
-    color: black;
 
+#color {
+    background-color: #40373F;
 }
-.centrar{
+
+/*CSS para el Form*/
+
+.form-horizontal {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
-#colorNav{
-    background-color: #40373F;
-    
-}
-#color{
-    background-color: #40373F;
-    
+    align-items: center;
 }
 
-a{
-    color:grey;
-}
-
-.form-horizontal{
-    
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      
-}
-#boton{
+#boton {
     background-color: #96C93E;
     border: none;
-    margin-bottom: 20px;
+}
+
+#textarea {
+    margin-top: 15px;
+}
+
+/*CSS para el Footer*/
+
+div a {
+    color: white;
+    text-decoration: none;
+}
+
+.pie {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 60px;
+}
+
+#footer {
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
 }
