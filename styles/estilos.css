@@ -9,6 +9,7 @@
 .fondo-imagen {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/ba1.jpg");
     height: 100vh;
+    background-position: right bottom;
 }
 
 #alinear {
@@ -33,12 +34,11 @@
     margin-left: 15px;
 }
 
-/*CSS para las 2 columnas*/
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.card {
+    margin-right: 15px;
 }
+
+/*CSS para las 2 columnas*/
 
 #tamanio {
     font-family: Arial, Helvetica, sans-serif;
@@ -67,10 +67,25 @@
     align-items: center;
 }
 
-#boton {
+#boton {   
     background-color: #96C93E;
     border: none;
+    margin-top: 15px;
+    width: 360px;
+    height: 50px;
+    color: white;
+    border-radius: 7px;
 }
+#boton1 {   
+    background-color: #96C93E;
+    border: none;
+    margin-top: 15px;
+    width: 360px;
+    height: 50px;
+    color: white;
+    border-radius: 7px;
+}
+
 
 #textarea {
     margin-top: 15px;
@@ -98,3 +113,60 @@ div a {
     margin: 0 auto;
     position: relative;
 }
+
+/*CSS para las cajas con porcentajes de descuentos*/
+.left {
+    padding-top: 15px;
+    border-style: groove;
+    border-color: cornflowerblue;
+    height: 250px;
+    text-align: center;
+}
+
+.center {
+    padding-top: 15px;
+    border-style: groove;
+    border-color: green;
+    height: 250px;
+    text-align: center;
+}
+
+.right {
+    padding-top: 15px;
+    border-style: groove;
+    border-color: gold;
+    height: 250px;
+    text-align: center;
+}
+
+/*CSS para el formulario*/
+#categorias {
+    
+    border-color: darkgrey;
+    border-radius: 3px;
+    height: 38px;
+}
+
+#cajaPago {
+    background-color: lightblue;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#desc {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#mail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
