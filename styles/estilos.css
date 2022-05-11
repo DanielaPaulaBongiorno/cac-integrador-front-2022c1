@@ -40,6 +40,8 @@
 
 /*CSS para las 2 columnas*/
 
+
+
 #tamanio {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -67,8 +69,9 @@
     align-items: center;
 }
 
-#boton {   
-    background-color: #96C93E;
+#boton {
+    
+    background-color: #97C93E;
     border: none;
     margin-top: 15px;
     width: 360px;
@@ -80,7 +83,7 @@
     background-color: #96C93E;
     border: none;
     margin-top: 15px;
-    width: 360px;
+    width: 370px;
     height: 50px;
     color: white;
     border-radius: 7px;
@@ -118,25 +121,32 @@ div a {
 .left {
     padding-top: 15px;
     border-style: groove;
-    border-color: cornflowerblue;
-    height: 250px;
+    border-color: #298DF9;
+    height: 200px;
     text-align: center;
+    font-size: 15px;
 }
 
 .center {
     padding-top: 15px;
     border-style: groove;
-    border-color: green;
-    height: 250px;
+    border-color: #62B9C7;
+    height: 200px;
     text-align: center;
+    font-size: 15px;
 }
 
 .right {
     padding-top: 15px;
     border-style: groove;
-    border-color: gold;
-    height: 250px;
+    border-color: #FFF2CB;
+    height: 200px;
     text-align: center;
+    font-size: 15px;
+}
+#desc {
+    padding-top: 20px;
+    max-width: 770px;
 }
 
 /*CSS para el formulario*/
@@ -148,17 +158,15 @@ div a {
 }
 
 #cajaPago {
-    background-color: lightblue;
+    background-color: #CCE5FF;
     margin-top: 15px;
     text-align: left;
     padding-left: 15px;
     padding-top: 10px;
+    border-radius: 7px;
 }
 
-#desc {
-    padding-top: 20px;
-    box-sizing: border-box;
-}
+
 
 .formulario {
     justify-content: center;
@@ -169,4 +177,8 @@ div a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+#cant{
+    color:grey;
+}
+
 
